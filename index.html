@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Medias do Enem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Médias enem</h1>
+        <div class="input-container">
+            <div class="input">
+                <table class="notas-table">
+                    <tr>
+                        <th>peso</th>
+                        <th>nota</th>
+                    </tr>
+                    <tr>
+                        <p>Matemática</p>
+                        <td><input type="number" class="peso-input" id="mat_peso" step="0" min="1" max="5" value="1"></td>
+                        <td><input type="number" class="nota-input" id="mat_nota"></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+
+            <div class="input">
+                <table class="notas-table">
+                    <tr>
+                        <th>peso</th>
+                        <th>nota</th>
+                    </tr>
+                    <tr>
+                        <p>Linguagens e Códigos</p>
+                        <td><input type="number" class="peso-input" step="0" min="1" max="5" value="1" id="ling_peso"></td>
+                        <td><input type="number" class="nota-input" id="ling_nota"></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            
+
+            <div class="input">
+                <table class="notas-table">
+                    <tr>
+                        <th>peso</th>
+                        <th>nota</th>
+                    </tr>
+                    <tr>
+                        <p>Ciências Humanas</p>
+                        <td><input type="number" class="peso-input" step="0" min="1" max="5" value="1" id="human_peso"></td>
+                        <td><input type="number" class="nota-input" id="human_nota"></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            
+
+            <div class="input">
+                <table class="notas-table">
+                    <tr>
+                        <th>peso</th>
+                        <th>nota</th>
+                    </tr>
+                    <tr>
+                        <p>Ciências da natureza</p>
+                        <td><input type="number" class="peso-input" step="0" min="1" max="5" value="1" id="natur_peso"></td>
+                        <td><input type="number" class="nota-input" id="natur_nota"></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            
+
+            <div class="input">
+                <table class="notas-table">
+                    <tr>
+                        <th>peso</th>
+                        <th>nota</th>
+                    </tr>
+                    <tr>
+                        <p>Redação</p>
+                        <td><input type="number" class="peso-input" step="0" min="1" max="5" value="1" id="red_peso"></td>
+                        <td><input type="number" class="nota-input" id="red_nota"></td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            
+
+            
+            
+        </div>
+        <button onclick="calcFinalNote()">Calcular media</button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
